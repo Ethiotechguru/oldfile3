@@ -1,0 +1,149 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* * {
+  border: black solid 2px;
+} */
+
+header {
+  margin: 0;
+  padding: 1px;
+  height: 13.5vh;
+  font-size: 2vw;
+  text-align: center;
+  background: #fbcd3c;
+  border-bottom: #e74a39 solid 5px;
+  color: #e74a39
+}
+
+header h1 {
+  line-height: 5vh;
+  margin-bottom: 1vh;
+}
+
+main {
+  height: 85vh;
+  width: 69vw;
+  padding: 5px;
+  margin: auto;
+  background: #faf4e1;
+}
+
+#favlist {
+  float:left;
+  position: fixed;
+  top: 14.5vh;
+  width: 14.5vw;
+  height: 85vh;
+  left: 0;
+  background: #b3cde0;
+}
+aside h3 {
+  text-align: center;
+  color: #3a5cb6;
+}
+
+aside a {
+  color: #e74a39;
+}
+
+#rightbar {
+  float: right;
+  position: fixed;
+  top: 14.5vh;
+  width: 14.5vw;
+  height: 85vh;
+  right: 0;
+  background: #b3cde0;
+}
+
+.hidden {
+  display:none;
+}
+
+
+/* * individual format ================================= */
+/* main * {
+  border: black solid 2px;
+} */
+
+main {
+  position: relative;
+}
+
+#icon {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  margin-bottom:10px;
+}
+
+#avatar {
+  width: 100%;
+  height: auto;
+  border: #3a5cb6 solid 5px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+#info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 1.5vw;
+  margin-left: 1vw;
+  border: #ffcb04 solid 5px;
+  border-radius:10px;
+  padding: 10px;
+  height: 13vw;
+}
+
+button {
+  position: absolute;
+  top: 3%;
+  left: 16%;
+  border: none;
+  background: none;
+  font-size: 2vw;
+}
+#emptyheart {
+  font-size: 2.2vw;
+  margin-bottom: -1px;
+}
+img {
+  width: 3vw;
+  height: auto;
+  margin-top: 0.2vw;
+}
+
+.type {
+  line-height: 2vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#skills {
+  border: black solid 3px;
+  border-radius: 5px;
+  margin: 20px, 0;
+  padding: 10px;
+  margin-bottom: 8vh;
+}
+
+
+
+
+
+#backlink {
+  border: #ffcb04 solid 5px;
+  color: #ffcb04;
+  background: #3a5cb6;
+  padding: 2vh 2vh;
+  border-radius: 15px;
+  font-size: 2vw;
+  font-weight: bolder;
+  text-decoration: none;
+}
